@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="@string/distributed_tictactoe"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="@string/register"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:hint="@string/enter_full_name"
+            android:inputType="textPersonName"
+            android:autofillHints="Your Name"
+            android:minHeight="48dp" /> <!-- Adjust the minHeight value as needed -->
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/enter_email"
+            android:inputType="textEmailAddress"
+            android:autofillHints="Your Email"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextRegisterUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/enter_username"
+            android:inputType="textPersonName"
+            android:autofillHints="Username"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextRegisterPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextConfirmPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="@string/Register" />
+
+        <Button
+            android:id="@+id/buttonReturnUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_registered_login_here" />
+
+    </LinearLayout>
+</ScrollView>

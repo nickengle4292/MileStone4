@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TicTacToeV4</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="register">Register</string>
+    <string name="distributed_tictactoe">Distributed TicTacToe</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered_login_here">Already Registered? Login Here</string>
+    <string name="Register">Register</string>
+</resources>
